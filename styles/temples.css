@@ -35,13 +35,13 @@ nav a {
   transition: color 0.3s;
 }
 nav a:hover {
-  color: #ffd700; /* Change color on hover */
+  color: #ffd700;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
-  gap: 10px;
+  gap: 5px;
   padding: 20px;
 }
 .grid-item {
@@ -57,13 +57,8 @@ nav a:hover {
   height: auto;
 }
 h2 {
-  tex-align: center;
-}
-
-#caption {
-  margin-top: 10px;
-  font-weight: bold;
-  color: #5c4d8a; /* Caption color */
+  tex-align: right;
+  margin-left: 280px;
 }
 .footer {
   background-color: #5c4d8a;

@@ -9,7 +9,6 @@
     background-color: #e6f2ff;
   }
 }
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -37,13 +36,13 @@ nav a {
   transition: color 0.3s;
 }
 nav a:hover {
-  color: #ffd700; /* Change color on hover */
+  color: #ffd700;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
+  gap: 5px;
   padding: 20px;
 }
 .grid-item {
@@ -58,14 +57,9 @@ nav a:hover {
   width: 100%;
   height: auto;
 }
-main h2 {
-  tex-align: center;
-}
-
-#caption {
-  margin-top: 10px;
-  font-weight: bold;
-  color: #5c4d8a; /* Caption color */
+h2 {
+  tex-align: right;
+  margin-left: 280px;
 }
 .footer {
   background-color: #5c4d8a;
