@@ -191,7 +191,7 @@ footer {
   }
 }
 /* .footer {
-  background-color: var(--primaary-color);
+  background-color: var(--primary-color);
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -199,7 +199,7 @@ footer {
   margin-top: 20px; */
 }
 .footer {
-  background-color: var(--primaary-color);
+  background-color: var(--primary-color);
   text-align: center;
   margin-top: 20px;
   font-size: 0.9em;
